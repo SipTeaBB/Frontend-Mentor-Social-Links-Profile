@@ -1,0 +1,18 @@
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/Inter-regular.tff') format('tff');
+  }
+  
+  
+/* Main color options */
+:root {
+    --background-color: black;
+    --main-box-color: rgb(38, 38, 36);
+    --button-color: #4C4C4C;
+}
+
+
