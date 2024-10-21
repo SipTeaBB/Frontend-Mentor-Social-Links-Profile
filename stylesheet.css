@@ -1,18 +1,101 @@
+/*
+go to the README.md file.
+this project muct use:
+USE CSS FLEXBOX
+USE CSS GRID
+REACT
+NEXT.JS
+STYLED COMPONENTS (link in readme.md)
+*/
+
+
 /* inter-regular - latin */
 @font-face {
     font-display: swap; 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: url('assets/fonts/Inter-regular.tff') format('tff');
+    src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
   }
-  
+   /* css for the whole page */
+  * {
+    font-family: 'Inter';
+  }
   
 /* Main color options */
 :root {
     --background-color: black;
     --main-box-color: rgb(38, 38, 36);
     --button-color: #4C4C4C;
+    --location-color: limegreen;
+    --all-other-text: white;
+}
+
+body {
+    background-color: var(--background-color);
+    font-size: 0.875em;
+}
+
+.content-box {
+    background-color: var(--main-box-color);
+    min-height: 15rem;
+    min-width: 10rem;
+
+    width: 15rem;
+    height: 25.5rem;
+
+    margin: 10% auto;
+    padding: 5rem;
+
+    font-family: 'Inter';
+    color: var(--all-other-text);
+
+    border-radius: 16px;
+}
+
+.user-name {
+    font-size: 2em;
+}
+
+.location {
+
+    color: var(--location-color);
+    font-size: 1.1em;
+}
+
+.quote {
+    font-size: .8em;
 }
 
 
+/* location of parent "the-links-ul" for "link" buttons */
+
+.the-links-ul {
+
+    height: 10rem;
+    width: 8rem;
+    list-style-type: none;
+    color: var(--all-other-text);
+    
+}
+
+.link {
+    background-color: var(--button-color);
+    min-height: 1em;
+    min-width: 15em;
+
+    border: none;
+    margin: 1em;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.875em;
+
+    border-radius: 3px;
+    cursor: pointer;
+
+    color: var(--all-other-text);
+
+    font-family: 'Inter';
+}
