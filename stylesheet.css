@@ -38,12 +38,11 @@ body {
 
 .content-box {
     background-color: var(--main-box-color);
-    min-height: 15rem;
-    min-width: 10rem;
+
 
     display: flexbox;
     width: 20rem;
-    height: 30rem;
+    height: 35rem;
 
     margin: 10% auto;
     /*padding: 5rem;*/
@@ -95,15 +94,15 @@ body {
 
 /* location of parent "the-links-ul" for "link" buttons */
 
-/*
+
 .the-links-ul {
 
-    height: 10rem;
-    width: 8rem;
-    list-style-type: none;
-    color: var(--all-other-text);
+    margin-right: auto;
+    margin-left: auto;
+
+    display: flex;
 }
-*/
+
 
 
 .link {
@@ -116,7 +115,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-top: 1em;
-    
+    justify-content: center;
 
     padding: 15px;
     
