@@ -27,7 +27,7 @@ a quote and then lists their social media links below.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Preview of my project](/my_preview.jpg)
 
 
 ### Links
@@ -72,7 +72,7 @@ I love that i got a chnance to play around with :hover
     color: var(--location-color);
     
 }
-
+```
 
 ### Continued development
 
