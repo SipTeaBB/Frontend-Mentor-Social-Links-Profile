@@ -31,8 +31,9 @@ a quote and then lists their social media links below.
 
 
 ### Links
--[Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ/hub)
--[]()
+
+Challenge link:
+- [Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ/hub)<br>
 
 ## My process
 
@@ -50,8 +51,11 @@ changes I wanted.
 
 ### Built with
 
+- VSCode<br>
+  - html<br>
+  - css<br>
+- Github Desktop<br>
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -70,26 +74,47 @@ I love that i got a chnance to play around with :hover
 }
 
 
-
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I really need to better understand when to use all
+```css
+display: block;
+display: inline;
+display: inline-block;
+display: flex;
+display: inline-flex;
+display: grid;
+display: inline-grid;
+display: flow-root;
+```
+
+and 
+
+```css
+position: static;
+position: relative;
+position: absolute;
+position: fixed;
+position: sticky;
+```
 
 
 ### Useful resources
 
-- [mdn web docs_](https://developer.mozilla.org/en-US)
+- [mdn web docs](https://developer.mozilla.org/en-US)
 - Centering an element [coryrylan.com](https://coryrylan.com/blog/how-to-center-in-css-with-css-grid)
 
 
 ## Author
 
-- github - [SipTeaBB](https://github.com/SipTeaBB)
+- Github - [SipTeaBB](https://github.com/SipTeaBB)
 - Frontend Mentor - [@SipTeaBB](https://www.frontendmentor.io/profile/SipTeaBB)
 
 
 ## Acknowledgments
+
+As always, thank you to Frontend Mentor for such awesome,<br>
+free resources.
 
 
 
