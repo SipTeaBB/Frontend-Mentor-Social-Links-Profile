@@ -16,7 +16,7 @@
     --background-color: black;
     --main-box-color: rgb(38, 38, 36);
     --button-color: #4C4C4C;
-    --location-color: #cddd57;
+    --location-color: hsl(75, 94%, 57%);
     --all-other-text: white;
 }
 
@@ -149,6 +149,7 @@ body {
 
 #sipteabb, #frontendMentor {
     text-decoration: none;
+    
 }
 
 #sipteabb:hover, #frontendMentor:hover {
