@@ -20,6 +20,10 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### The challenge
 
+[Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ/hub)
+
+Create a simple html and css page that shows a users image, location,<br>
+a quote and then lists their social media links below.
 
 ### Screenshot
 
@@ -27,9 +31,22 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 
 ### Links
-
+-[Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ/hub)
+-[]()
 
 ## My process
+
+I started by placing all of the social media links into 
+an
+ ```html
+<section></section>
+```
+then I placed each individual "link" into a sperate 
+```html
+<div></div>
+```
+after giving every element I wanted to style a class, from there it was much easier to begin making a stylesheet and implementing the 
+changes I wanted.
 
 ### Built with
 
@@ -38,23 +55,20 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### What I learned
 
+I tend to style individual elements entirly rather than doing any global styles. I'm really trying to break that habbit.
+I'm also getting better at usingg css pseudo-classes. 
+
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+I love that i got a chnance to play around with :hover
+``` css
+#sipteabb:hover, #frontendMentor:hover {
+    text-decoration: underline wavy;
+    color: var(--location-color);
+    
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+
 
 
 
