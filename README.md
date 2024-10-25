@@ -75,10 +75,7 @@ changes I wanted.
 I tend to style individual elements entirly rather than doing any global styles. I'm really trying to break that habbit.
 I'm also getting better at usingg css pseudo-classes. 
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-
-I love that i got a chnance to play around with :hover
+I love that i got a chance to play around with :hover
 ``` css
 #sipteabb:hover, #frontendMentor:hover {
     text-decoration: underline wavy;
