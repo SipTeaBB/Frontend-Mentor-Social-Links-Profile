@@ -139,6 +139,7 @@ body {
           box-shadow: outset 0px 0px 5px var(--button-color);
    outline: none;
    user-select: none;
+   transform: translateY(4px);
 }
 
 /* bottom of the page */
