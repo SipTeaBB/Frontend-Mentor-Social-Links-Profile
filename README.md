@@ -18,6 +18,17 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Overview
 
+The project required a clickable list of social media links below a users image and<br>
+information such as location and a quote.
+
+I decided to add extra details to the project such as :hover details and<br>
+:active details such as:
+
+```css
+transform: translateY(4px);
+```
+Overall, I learned so much about CSS. I look forward to my next project! :smiley:
+
 ### The challenge
 
 [Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ/hub)
@@ -27,7 +38,9 @@ a quote and then lists their social media links below.
 
 ### Screenshot
 
-![Preview of my project](/my_preview.jpg)
+The Preview of My Project
+
+![Preview of my project! :) ](/my_preview.jpg)
 
 
 ### Links
